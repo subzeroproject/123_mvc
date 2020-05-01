@@ -21,10 +21,10 @@
     <div class="col-lg-12">
         <div class="">
             <div class="" style="position: relative;">
-                <div class="col-lg-3">
+                <div class="col-lg-4">
                 	<img width="384" height="216" src="templates/image/<?php echo $row['image']; ?>">
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-8">
                 	<h3><?php echo $row['description']; ?></h3>
                 </div>
             <?php endforeach; ?>
